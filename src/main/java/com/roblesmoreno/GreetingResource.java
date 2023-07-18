@@ -26,6 +26,6 @@ public class GreetingResource {
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/world")
     public Response world(){
-        return Response.status(Response.Status.OK).entity("Hello World").build();
+        return Response.status(Response.Status.OK).entity("{Hello World").build();
     }
 }
